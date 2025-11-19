@@ -2,18 +2,24 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>WonderLife Network – Dashboard V3</title>
+<title>WonderLife Dashboard V4 – PRO</title>
 <link rel="stylesheet" href="assets/style.css">
 <script defer src="assets/auth.js"></script>
 <script defer src="assets/api.js"></script>
-<script defer src="assets/app.js"></script>
 </head>
 <body>
-<div id="sidebar" class="sidebar hidden"></div>
-<div class="content" id="main">
-  <h1>WonderLife Dashboard V3</h1>
-  <p>Mit Discord einloggen, um das Live-System zu nutzen.</p>
-  <button class="login-btn" onclick="login()">🔐 Mit Discord einloggen</button>
+<div id="sidebar" class="sidebar"></div>
+<div class="content">
+<h1>WonderLife Dashboard V4 – PRO Admin Panel</h1>
+<p>Live Monitoring aktiv.</p>
+<div class="grid">
+  <div class="card" onclick="location.href='live_members.html'">👥 Live Members</div>
+  <div class="card" onclick="location.href='live_voice.html'">🎙 Voice Monitor</div>
+  <div class="card" onclick="location.href='live_channels.html'">📂 Channel Manager</div>
+  <div class="card" onclick="location.href='live_roles.html'">🎖 Role Manager</div>
+  <div class="card" onclick="location.href='live_logs.html'">📜 Moderation Logs</div>
+  <div class="card" onclick="location.href='bot_control.html'">🤖 Bot Control</div>
+</div>
 </div>
 </body>
 </html>

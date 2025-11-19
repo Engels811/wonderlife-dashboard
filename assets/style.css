@@ -1,0 +1,8 @@
+
+body { margin:0; background:#050008; color:white; font-family:Arial; }
+.sidebar { width:240px; height:100vh; background:#140022; padding:20px; position:fixed; }
+.sidebar h2 { color:#ff00d4; margin-bottom:30px; }
+.sidebar a { display:block; color:#d98aff; margin:10px 0; text-decoration:none; }
+.sidebar a:hover { color:#ff00d4; }
+.content { margin-left:260px; padding:20px; }
+.box { padding:20px; background:#1d0033; border-radius:10px; margin-bottom:20px; }
